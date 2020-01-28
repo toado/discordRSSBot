@@ -1,5 +1,9 @@
 # SpongeBot Squarepants
 
+A simple discord bot that doubles as an RSS reader.
+SpongeBot alerts users whenever a new submission is posted onto their desired subreddit of choice, 
+and also includes some other functions that may come in handy :-)
+
 Inspiration
 -
 For those who always want to be on top of good deals online, SpongeBot Squarepants was created to alert users whenever a hot new deal is posted on their favorite subreddit, or just for any posts in general!
@@ -22,7 +26,3 @@ python3 discordBot
 ```
 
 
-
-A simple discord bot that doubles as an RSS reader.
-SpongeBot alerts users whenever a new submission is posted onto their desired subreddit of choice, 
-and also includes some other functions that may come in handy :-)
