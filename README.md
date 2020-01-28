@@ -26,6 +26,6 @@ After cloning the repository, be sure to replace the string in **botToken.py** w
 ```
 git clone github.com/toado/discordRSSBot
 cd discordBot
-python3 discordBot
+python3 bot.py
 ```
 
