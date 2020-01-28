@@ -11,7 +11,7 @@ SpongeBot fetches the given websites.rss url to access its full feed where it pa
 How to run SpongeBot
 -
 
-***IMPORTANT***
+**IMPORTANT** 
 After cloning the repository, be sure to replace the string in **botToken.py** with the **token of YOUR bot**
 ```
 git clone github.com/toado/discordbot
