@@ -4,15 +4,16 @@ import discord
 import random
 import time
 import feedparser
+import botToken
 
 BOT_PREFIX = '~'
-TOKEN = "FILL IN BOT TOKEN HERE"
+TOKEN = botToken.token()
 post_list = []
 
 client = Bot(command_prefix=BOT_PREFIX)
 
 
-# ------------------------------- 8ball function for PoW ------------------------------- #
+# ------------------------------- 8ball function ------------------------------ #
 @client.command(name='8ball',
                 aliases=['eight_ball', 'eightball', '8-ball'])
 async def _8ball(ctx, *, question):
