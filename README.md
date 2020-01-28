@@ -1,8 +1,12 @@
-# SpongeBot Squarepants ![alt text](https://github.com/toado/discordbot/blob/master/reddit_bob.png "SpongeBot Image")
+# SpongeBot Squarepants 
 
 A simple discord bot that doubles as an RSS reader.
 SpongeBot alerts users whenever a new submission is posted onto their desired subreddit of choice, 
 and also includes some other functions that may come in handy :-)
+
+<p align="center">
+  <img width="400" height="300" src=https://github.com/toado/discordbot/blob/master/reddit_bob.png "SpongeBot Image">
+</p>
 
 Inspiration
 -
