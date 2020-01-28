@@ -25,4 +25,6 @@ cd discordBot
 python3 discordBot
 ```
 
+![alt text](https://github.com/toado/discordbot/blob/master/reddit_bob.png "SpongeBot Image")
+
 
