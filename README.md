@@ -12,6 +12,8 @@ How to run SpongeBot
 -
 
 **IMPORTANT** 
+
+
 After cloning the repository, be sure to replace the string in **botToken.py** with the **token of YOUR bot**
 ```
 git clone github.com/toado/discordbot
