@@ -12,34 +12,10 @@ post_list = []
 
 client = Bot(command_prefix=BOT_PREFIX)
 
-
-# ------------------------------- 8ball function ------------------------------ #
-@client.command(name='8ball',
-                aliases=['eight_ball', 'eightball', '8-ball'])
-async def _8ball(ctx, *, question):
-  responses = [
-    'Good lord, no',
-    'Please, don\'t even ask that',
-    'No',
-    'Oh no, nonononono ...',
-    'It is not looking likely',
-    'There\'s a chance',
-    'Probably, friend',
-    'It\'s best you try again later',
-    'Sleeping right now, ask again later',
-    'Yeehaw buckaroo',
-    'Hot diggity dog',
-    'God is telling me yes',
-    'Yes ... YES!',
-    'Looks like a yes from me'
-  ]
-  await ctx.send(f'> Q: {question}\nA: {random.choice(responses)}')
-
 # -------------------- clear function to purge x amount of messages -------------------- #
 @client.command()
 async def clear(ctx, amount=1):
   purged = await ctx.channel.purge(limit=amount+1)  # returns lists of messages
-  # await ctx.send(f'{len(purged)} messages removed.')
 
 # ----------------------- Function to Ban/Unban a specified user ---------------------- #
 
